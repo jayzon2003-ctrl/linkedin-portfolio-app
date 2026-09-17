@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta
+    name="description"
+    content="Portfolio Project Lab turns ideas, skills, and class assignments into practical portfolio projects."
+  >
+
+  <title>Portfolio Project Lab</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- HERO -->
+
+  <header class="hero" id="home">
+
+    <nav class="navbar">
+
+      <a href="#home" class="brand">
+        <span class="brand-star">✦</span>
+        Portfolio <strong>Project Lab</strong>
+      </a>
+
+      <div class="nav-links">
+        <a href="#generator">Create</a>
+        <a href="#assignment">Assignments</a>
+        <a href="#saved">Saved</a>
+      </div>
+
+    </nav>
+
+
+    <!-- Decorative shooting stars -->
+
+    <div class="shooting-star star-one"></div>
+    <div class="shooting-star star-two"></div>
+
+
+    <div class="hero-content">
+
+      <div class="hero-copy">
+
+        <p class="eyebrow">
+          DREAM · PLAN · BUILD
+        </p>
+
+        <h1>
+          Turn a dream
+          <br>
+          into <span>something real.</span>
+        </h1>
+
+        <p class="hero-text">
+          Portfolio Project Lab helps students turn interests,
+          class assignments, and skills into projects they can
+          actually show.
+        </p>
+
+
+        <div class="hero-actions">
+
+          <a href="#generator" class="button gold">
+            Start Building
+            <span>→</span>
+          </a>
+
+          <a href="#how-it-works" class="learn-link">
+            See how it works ↓
+          </a>
+
+        </div>
+
+
+        <div class="dream-quote">
+
+          <span>“</span>
+
+          <div>
+            <strong>Big dreams start small.</strong>
+
+            <small>
+              One project can be the first step toward
+              the future you imagine.
+            </small>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="hero-message">
+
+        <div class="floating-note note-1">
+          ✦ Your next idea
+        </div>
+
+        <div class="floating-note note-2">
+          Build your future →
+        </div>
+
+        <div class="floating-note note-3">
+          Make it real.
+        </div>
+
+        <div class="constellation">
+          <span>✦</span>
+          <span>·</span>
+          <span>✦</span>
+          <span>·</span>
+          <span>✦</span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+
+  <main>
+
+    <!-- HOW IT WORKS -->
+
+    <section class="section light" id="how-it-works">
+
+      <div class="section-heading">
+
+        <p class="eyebrow blue">
+          FROM IDEA TO EVIDENCE
+        </p>
+
+        <h2>
+          You do not need years of experience
+          <br>
+          to <span>start building.</span>
+        </h2>
+
+        <p>
+          Use what you already know, choose what you want
+          to learn, and create something that gives you
+          evidence to talk about.
+        </p>
+
+      </div>
+
+
+      <div class="steps">
+
+        <article class="step">
+
+          <span>01</span>
+
+          <div class="step-icon">
+            ✦
+          </div>
+
+          <h3>Dream</h3>
+
+          <p>
+            Start with a career goal, interest,
+            assignment, or simple idea.
+          </p>
+
+        </article>
+
+
+        <article class="step featured">
+
+          <span>02</span>
+
+          <div class="step-icon">
+            ✎
+          </div>
+
+          <h3>Plan</h3>
+
+          <p>
+            Get a realistic project matched to your
+            skills, experience, and time.
+          </p>
+
+        </article>
+
+
+        <article class="step">
+
+          <span>03</span>
+
+          <div class="step-icon">
+            ↗
+          </div>
+
+          <h3>Build</h3>
+
+          <p>
+            Create the project, document the process,
+            and turn it into portfolio evidence.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- PROJECT GENERATOR -->
+
+    <section class="section generator-section" id="generator">
+
+      <div class="section-heading">
+
+        <p class="eyebrow blue">
+          THE PROJECT GENERATOR
+        </p>
+
+        <h2>
+          What do you want to
+          <span>make real?</span>
+        </h2>
+
+        <p>
+          Give the lab some direction. It will create
+          a project starting point you can shape into
+          your own.
+        </p>
+
+      </div>
+
+
+      <form id="projectForm" class="generator-card">
+
+        <div class="form-top">
+
+          <span>
+            PROJECT LAB
+          </span>
+
+          <small>
+            You can change anything later.
+          </small>
+
+        </div>
+
+
+        <!-- CATEGORY -->
+
+        <div class="field full">
+
+          <label>
+            01 · What type of project?
+          </label>
+
+          <div class="choices">
+
+            <label class="choice active">
+
+              <input
+                type="radio"
+                name="category"
+                value="coding"
+                checked
+              >
+
+              <b>&lt;/&gt;</b>
+
+              <span>
+                Coding
+              </span>
+
+            </label>
+
+
+            <label class="choice">
+
+              <input
+                type="radio"
+                name="category"
+                value="business"
+              >
+
+              <b>▣</b>
+
+              <span>
+                Business
+              </span>
+
+            </label>
+
+
+            <label class="choice">
+
+              <input
+                type="radio"
+                name="category"
+                value="event"
+              >
+
+              <b>▦</b>
+
+              <span>
+                Event Planning
+              </span>
+
+            </label>
+
+
+            <label class="choice">
+
+              <input
+                type="radio"
+                name="category"
+                value="creative"
+              >
+
+              <b>◌</b>
+
+              <span>
+                Creative
+              </span>
+
+            </label>
+
+
+            <label class="choice">
+
+              <input
+                type="radio"
+                name="category"
+                value="academic"
+              >
+
+              <b>◇</b>
+
+              <span>
+                Academic
+              </span>
+
+            </label>
+
+
+            <label class="choice surprise">
+
+              <input
+                type="radio"
+                name="category"
+                value="random"
+              >
+
+              <b>✦</b>
+
+              <span>
+                Surprise Me
+              </span>
+
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <div class="form-grid">
+
+
+          <div class="field">
+
+            <label for="career">
+              02 · Career interest
+            </label>
+
+            <input
+              id="career"
+              name="career"
+              placeholder="e.g. software development, finance, marketing"
+            >
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="experience">
+              03 · Experience level
+            </label>
+
+            <select id="experience" name="experience">
+
+              <option value="beginner">
+                I am a beginner
+              </option>
+
+              <option value="some">
+                I have some experience
+              </option>
+
+              <option value="intermediate">
+                I am comfortable with the basics
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="interests">
+              04 · Interests
+            </label>
+
+            <input
+              id="interests"
+              name="interests"
+              placeholder="e.g. gaming, music, sports, fashion"
+            >
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="skills">
+              05 · Skills you have
+            </label>
+
+            <input
+              id="skills"
+              name="skills"
+              placeholder="e.g. Excel, HTML, Canva, writing"
+            >
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="time">
+              06 · Time available
+            </label>
+
+            <select id="time" name="time">
+
+              <option value="weekend">
+                A weekend
+              </option>
+
+              <option value="week">
+                About 1 week
+              </option>
+
+              <option value="two-weeks">
+                2–3 weeks
+              </option>
+
+              <option value="month">
+                A month or more
+              </option>
+
+            </select>
+
+          </div>
+
+
+          <div class="field">
+
+            <label for="avoid">
+              07 · Anything to avoid?
+            </label>
+
+            <input
+              id="avoid"
+              name="avoid"
+              placeholder="e.g. complicated coding, presentations"
+            >
+
+          </div>
+
+
+          <div class="field full">
+
+            <label for="assignment">
+              08 · Have an assignment? Paste it here.
+            </label>
+
+            <textarea
+              id="assignment"
+              name="assignment"
+              rows="5"
+              placeholder="Paste the assignment instructions. The lab will identify ways to turn appropriate classwork into stronger portfolio evidence."
+            ></textarea>
+
+          </div>
+
+        </div>
+
+
+        <div class="form-bottom">
+
+          <p>
+            ✦ Your project should fit your current skill level.
+          </p>
+
+          <button
+            class="button primary"
+            type="submit"
+          >
+            Generate My Project
+            <span>→</span>
+          </button>
+
+        </div>
+
+      </form>
+
+    </section>
+
+
+
+    <!-- GENERATED RESULT -->
+
+    <section
+      class="section result-section hidden"
+      id="resultSection"
+    >
+
+      <div class="section-heading left">
+
+        <p class="eyebrow blue">
+          YOUR NEXT PROJECT
+        </p>
+
+        <h2 id="resultTitle"></h2>
+
+        <p id="resultDescription"></p>
+
+      </div>
+
+
+      <div class="result-layout">
+
+
+        <div>
+
+          <article class="result-card">
+
+            <div class="result-meta">
+
+              <span
+                id="resultCategory"
+                class="badge"
+              ></span>
+
+              <span id="resultDifficulty"></span>
+
+            </div>
+
+
+            <h3>
+              What you will build
+            </h3>
+
+            <ul
+              id="buildList"
+              class="check-list"
+            ></ul>
+
+
+            <h3>
+              Skills you will demonstrate
+            </h3>
+
+            <div
+              id="skillsList"
+              class="skills"
+            ></div>
+
+          </article>
+
+
+          <article class="result-card">
+
+            <h3>
+              Portfolio evidence checklist
+            </h3>
+
+            <ul
+              id="portfolioList"
+              class="check-list"
+            ></ul>
+
+          </article>
+
+        </div>
+
+
+
+        <aside>
+
+          <div class="mini-card">
+
+            <small>
+              ESTIMATED TIME
+            </small>
+
+            <strong id="resultTime"></strong>
+
+          </div>
+
+
+          <div class="mini-card">
+
+            <small>
+              CAREER CONNECTION
+            </small>
+
+            <strong id="resultCareer"></strong>
+
+          </div>
+
+
+          <div class="linkedin-card">
+
+            <div class="in-mark">
+              in
+            </div>
+
+            <div>
+
+              <strong>
+                LinkedIn-ready
+              </strong>
+
+              <small>
+                Describe what you actually built.
+              </small>
+
+            </div>
+
+
+            <p id="linkedinText"></p>
+
+
+            <button
+              id="copyLinkedIn"
+              class="small-button"
+              type="button"
+            >
+              Copy description
+            </button>
+
+          </div>
+
+
+          <div class="result-buttons">
+
+            <button
+              id="saveProject"
+              class="button primary"
+              type="button"
+            >
+              Save Project
+            </button>
+
+            <button
+              id="generateAnother"
+              class="button outline"
+              type="button"
+            >
+              Generate Another
+            </button>
+
+          </div>
+
+        </aside>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- ASSIGNMENTS -->
+
+    <section
+      class="section assignment"
+      id="assignment"
+    >
+
+      <div class="assignment-art">
+
+        <div class="paper paper-one">
+          ASSIGNMENT
+        </div>
+
+        <div class="paper paper-two">
+          PORTFOLIO
+        </div>
+
+        <div class="paper paper-three">
+          REAL EXPERIENCE
+        </div>
+
+        <div class="big-star">
+          ✦
+        </div>
+
+      </div>
+
+
+      <div class="assignment-copy">
+
+        <p class="eyebrow blue">
+          HAVE AN ASSIGNMENT?
+        </p>
+
+        <h2>
+          Turn classwork into
+          <span>
+            proof of what you can do.
+          </span>
+        </h2>
+
+        <p>
+          Not every assignment belongs in a portfolio.
+          The goal is to identify the ones that can become
+          stronger evidence with better documentation,
+          real-world context, or an additional layer of work.
+        </p>
+
+
+        <div class="assignment-flow">
+
+          <div>
+
+            <small>
+              CLASS ASSIGNMENT
+            </small>
+
+            <strong>
+              Create a webpage using HTML and CSS.
+            </strong>
+
+          </div>
+
+
+          <b>
+            →
+          </b>
+
+
+          <div>
+
+            <small>
+              PORTFOLIO VERSION
+            </small>
+
+            <strong>
+              Responsive site with audience research,
+              design decisions, and usability evidence.
+            </strong>
+
+          </div>
+
+        </div>
+
+
+        <a
+          href="#generator"
+          class="button dark"
+        >
+          Analyze My Assignment →
+        </a>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- SAVED PROJECTS -->
+
+    <section
+      class="section saved-section"
+      id="saved"
+    >
+
+      <div class="saved-heading">
+
+        <div>
+
+          <p class="eyebrow blue">
+            YOUR IDEA SHELF
+          </p>
+
+          <h2>
+            Saved Projects
+          </h2>
+
+        </div>
+
+        <span id="savedCount">
+          0 saved projects
+        </span>
+
+      </div>
+
+
+      <div
+        id="savedProjects"
+        class="saved-grid"
+      ></div>
+
+
+      <div
+        id="emptySaved"
+        class="empty"
+      >
+
+        <span>
+          ✦
+        </span>
+
+        <h3>
+          Your future projects will live here.
+        </h3>
+
+        <p>
+          Generate something you like and save it for later.
+        </p>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <footer>
+
+    <strong>
+      Portfolio <span>Project Lab</span>
+    </strong>
+
+    <p>
+      Dream it. Plan it. Build it.
+    </p>
+
+  </footer>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
